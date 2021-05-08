@@ -373,7 +373,18 @@ pre {
   .navbar .flex {
     flex-direction: column;
   }
-
+  
+  .features-head,
+  .features-sub-head,
+  .docs-head {
+    text-align: center;
+  }
+  
+  .features-head img,
+  .features-sub-head img,
+  .docs-head img {
+    justify-self: center;
+  }
   .navbar ul {
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.1);
