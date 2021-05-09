@@ -48,7 +48,7 @@ img {
 
 code,
 pre {
-  background: #333;
+  background-color: #333;
   color: #fff;
   padding: 10px;
 }
@@ -104,7 +104,7 @@ pre {
 
 .showcase .grid {
   overflow: visible;
-  grid-template-columns: 55% auto;
+  grid-template-columns: 55% 45%;
   gap: 30px;
 }
 
@@ -160,7 +160,9 @@ pre {
 
   animation: slideInFromBottom 1s ease-in;
 }
-
+.text-center {
+  text-align: center;
+}
 .stats-heading {
   max-width: 500px;
   margin: auto;
@@ -175,10 +177,6 @@ pre {
   font-weight: bold;
 }
 
-.text-secondary {
-  font-size: 20px;
-  font-weight: bold;
-}
 
 .stats .grid h3 {
   font-size: 35px;
@@ -264,6 +262,9 @@ pre {
   margin-bottom: 5px;
   border-bottom: 1px #ccc solid;
 }
+.docs-main nav a {
+  color: #333;
+}
 
 .docs-main a:hover {
   font-weight: bold;
@@ -309,25 +310,17 @@ pre {
   margin: 0 10px;
 }
 
-.features-sub-head p {
-  font-size: 20px;
-  font-weight: bold;
-}
-.features-sub-head h1 {
-  font-weight: bold;
-}
 
 /*Tablets and under*/
 @media (max-width: 768px) {
   .grid,
   .showcase .grid,
-  .stats .grid,
   .cli .grid,
   .cloud .grid,
   .features-main .grid,
   .docs-main .grid {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+   
   }
 
   .cli .grid > *:first-child {
