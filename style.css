@@ -337,20 +337,6 @@ pre {
     grid-row: 1;
   }
 
-  .features-head,
-  .features-sub-head,
-  .docs-head {
-    text-align: center;
-  }
-  .features-sub-head h1 {
-    font-size: 40px;
-    font-weight: bold;
-  }
-  .features-sub-head p {
-    font-size: 20px;
-    font-weight: bold;
-  }
-
   .features-head img,
   .features-sub-head img,
   .docs-head img {
@@ -380,4 +366,17 @@ pre {
   
   .showcase-form {
     width: 300px;
+      .features-head,
+  .features-sub-head,
+  .docs-head {
+    text-align: center;
+  }
+  .features-sub-head h1 {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .features-sub-head p {
+    font-size: 20px;
+    font-weight: bold;
+  }
   }
